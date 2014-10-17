@@ -12,3 +12,8 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+
+print "Celius to Farenheit calculator!"
+print "Type your Celcius tempurature :"
+userInput = int(raw_input()) *9 /5 +32
+print "Your Farenheit tempurature is " + str(userInput) + "!"
